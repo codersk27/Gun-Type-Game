@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+#header {
+    width: 90%;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+}
+
+#main {
+    width: 95%;
+    height: auto;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flex_child1 {
+    width: 60%;
+}
+#flex_child2 {
+    width: 40%;
+}
+
+#mycanvas {
+    width: 90%;
+    height: 40%;
+    margin: 2%;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+#scoreBoard {
+    font-size: 2rem;
+    text-align: center;
+}
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1%;
+}
